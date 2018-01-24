@@ -1,0 +1,83 @@
+﻿<style>
+    .logo h1 {
+        font-size: 3em;
+        margin: 0.6em 0 0.5em;
+        font-weight: 900;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        margin: 0;
+        font-family: 'Pompiere', cursive;
+        line-height: 1.1;
+        color: inherit;
+    }
+    .logo {
+        text-align: center;
+    }
+
+    span.tag {
+        display: block;
+        font-size: .3em;
+        color: black;
+        font-family: 'Pompiere', cursive;
+        letter-spacing: 1px;
+        margin-top: 6px;
+        font-weight: 400;
+    }
+    .nav {
+        padding: 17px 26px;
+    }
+</style>
+<ul class="nav justify-content-end">
+    <li class="nav-item">
+        <a class="nav-link active" href="#">Active</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+    </li>
+</ul>
+<div class="header-two navbar navbar-default align-content-center">
+    <!--header-two-->
+    <div class="container">
+        <div class="nav navbar-nav header-two-left">
+        </div>
+        <div class="nav navbar-nav logo wow zoomIn animated" data-wow-delay=".7s">
+            <h1><a href="/Home/Index"> <b>Kitabook</b><span class="tag">Kitaplar sessiz öğretmenlerdir </span> </a></h1>
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light mb-4 bg-transparent">
+    <a class="navbar-brand fadeInLeft animated" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto fadeInLeft animated">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Disabled</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0 fadeInRight animated">
+            <input class="form-control mr-sm-2 border-light" type="search" placeholder="Ara" aria-label="Ara">
+            <button class="btn btn-outline-success my-2 my-sm-0 border-white" type="submit">Ara</button>
+        </form>
+    </div>
+</nav>
