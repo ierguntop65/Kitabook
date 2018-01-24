@@ -26,16 +26,22 @@
     <!-- Navigation -->
     @(Html.Partial("_PartialNavbar"))
     <!-- Page Content -->
-    @RenderBody()
-    <!-- /.container -->
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
-        <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+    <div class="container">
+        <div class="row">
+            @(Html.Partial("_PartialCategory"))
+
+            @RenderBody()
         </div>
-        <!-- /.container -->
-    </footer>
-    <!-- Bootstrap core JavaScript -->
+    </div>
+            <!-- /.container -->
+            <!-- Footer -->
+            <footer class="py-5 bg-dark">
+                <div class="container">
+                    <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+                </div>
+                <!-- /.container -->
+            </footer>
+            <!-- Bootstrap core JavaScript -->
 
 </body>
 <!-- Bootstrap core JavaScript -->
